@@ -1,0 +1,9 @@
+.pomodoro-wrapper {
+  width: 400px;
+  height: 400px;
+  background-color: white;
+}
+
+.pomodoro-wrapper p {
+  color: black;
+}
