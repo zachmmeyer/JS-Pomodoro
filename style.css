@@ -1,13 +1,51 @@
 body {
   background-color: black;
+  color: white;
 }
 .pomodoro-wrapper {
-  width: 400px;
-  height: 400px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 200px;
+  height: 100%;
   background-color: black;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
+  align-items: center;
 }
 
-.pomodoro-wrapper p {
-  color: white;
+.pomodoro-wrapper label {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100px;
+}
+
+.timer {
+  font-size: 2rem;
+}
+
+.time {
+  margin-left: 1rem;
+}
+
+.button-wrapper {
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  flex-direction: row;
+  margin-bottom: 0.5rem;
+}
+
+.status {
+  margin-bottom: 0.5rem;
+}
+
+.timer {
+  margin-bottom: 0.5rem;
+}
+
+.count {
+  margin-bottom: 0.5rem;
 }
